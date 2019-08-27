@@ -18,11 +18,11 @@ values will go from decimal to percent format like such: 0.03 -> 3%
 This takes a column of numbers in decimal format and turns it into percent format.
 }
 \examples{
-frequencies <- c(.30,.47,.25, .65, .42,.57,.74,.19,.54,.50,.46,.28,.45) \%>\% 
-as.data.frame() \%>\% 
+frequencies <- c(.30,.47,.25, .65, .42,.57,.74,.19,.54,.50,.46,.28,.45) \%>\%
+as.data.frame() \%>\%
  rename(
    result = "."
  )
- 
+
  as_percent()
 }
