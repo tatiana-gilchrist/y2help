@@ -7,5 +7,5 @@ Depends: R (>= 3.6.0)
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
-Imports: tidyverse
+Imports: tidyverse, orderlabel, labelled, y2clerk
 RoxygenNote: 6.1.1
